@@ -70,6 +70,11 @@ textarea {
    Helper classes
    ========================================================================== */
 /* Prevent callout */
+.body-special{
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAJ0lEQVQYV2OcqWr1n4EIwDiIFKbfPsYIcjK6kzDcSLRCXAEwgL4GAHuJG7EjPnSyAAAAAElFTkSuQmCC
+  ) repeat;
+}
+
 .nocallout {
   -webkit-touch-callout: none;
 }
@@ -3717,7 +3722,7 @@ body.open {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #4285f4;
+  background-color: #99253B;
   overflow: hidden;
   z-index: 1;
 }
@@ -3925,7 +3930,7 @@ main {
     max-width: 864px;
     padding: 0 16px;
     box-sizing: border-box;
-    background-color: #4285f4;
+    background-color: #99253B;
   }
 
   .app-bar .logo {
@@ -4039,4 +4044,8 @@ main {
   font-weight: 700;
   src: url(/fonts/RobotoCondensed-BoldItalic.eot);
   src: local("Roboto Condensed Bold Italic"), local("RobotoCondensed-BoldItalic"), url(/fonts/RobotoCondensed-BoldItalic.eot) format("embedded-opentype"), url(/fonts/RobotoCondensed-BoldItalic.woff) format("woff");
+}
+
+#about {
+  color: #ffffff;
 }
