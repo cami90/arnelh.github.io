@@ -70,10 +70,7 @@ textarea {
    Helper classes
    ========================================================================== */
 /* Prevent callout */
-.body-special{
-  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAJ0lEQVQYV2OcqWr1n4EIwDiIFKbfPsYIcjK6kzDcSLRCXAEwgL4GAHuJG7EjPnSyAAAAAElFTkSuQmCC
-  ) repeat;
-}
+
 
 .nocallout {
   -webkit-touch-callout: none;
@@ -4046,6 +4043,25 @@ main {
   src: local("Roboto Condensed Bold Italic"), local("RobotoCondensed-BoldItalic"), url(/fonts/RobotoCondensed-BoldItalic.eot) format("embedded-opentype"), url(/fonts/RobotoCondensed-BoldItalic.woff) format("woff");
 }
 
+
+/* AGGIUNTE CAMI */
+
+/* body della pagina Gallery */
+.body-special{
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAJ0lEQVQYV2OcqWr1n4EIwDiIFKbfPsYIcjK6kzDcSLRCXAEwgL4GAHuJG7EjPnSyAAAAAElFTkSuQmCC
+  ) repeat;
+}
+
+/* colore titolo della pagina Gallery */
 .h1-gallery{
   color: #ffffff;
+}
+
+/* distanziatore per immagini in Gallery */
+.margin-bottom{
+  margin-bottom: 2em;
+}
+
+.margin-top{
+  margin-top: 2em;
 }
